@@ -1,0 +1,55 @@
+body{
+    background-color: bisque;
+}
+#dish {
+    height: 300px;
+    width: 475px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.main-div {
+    border: 3px;
+    height: 1550px;
+    width: 500px;
+    border-radius: 18px;
+    background-color: white;
+    padding: 30px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.preparation{
+    background-color: pink;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+h2{
+    color: rgb(221, 5, 77);
+    margin-left: 5px;
+}
+.header {
+    color: brown;
+}
+li{
+   padding: 4px; 
+}
+.td {
+    color: brown;
+    font-weight: 600;
+    padding: 5px 30px 5px 200px;
+}
+h1:hover{
+    text-decoration: underline;
+    animation: animated;
+    animation-duration: 4s;
+}
+@keyframes animated {
+    0% { transform: translateY(0);
+    color: darkorange; }
+    50% { transform: translateY(-50px);
+    color: deeppink; }
+    100% { transform: translateY(50px); 
+    color: #2af606;}
+}
